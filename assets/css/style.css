@@ -67,17 +67,17 @@ header{
     width: 30%;
 }
 .feature div img{
-    width:700px;       
-    height:400px;
+    width:510px;       
+    height:300px;
 }
 .feature div h2{
     color: #022D7C;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 700px;
     margin-bottom: 5px;
 }
 .feature div p{
-    font-size: 25px;
+    font-size: 20px;
     text-align: justify;
     margin-top: 5px;
 }
@@ -96,7 +96,7 @@ header{
     font-size: 30px;
 }
 .about p{
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 5px;
     text-align: justify;
 }
@@ -112,4 +112,46 @@ header{
     border-radius: 7px;
 }
 /* /About us section end */
+
+/* lorem section start */
+.lorem{
+    width: 100%;
+    height: auto;
+    padding: 0px 100px;
+    
+}
+.lorem .upper,.lorem .lower{
+    display: flex;
+    align-items: center;
+}
+.lorem .images,.lorem .content{
+    width: 50%;
+}
+.lorem .images img{
+    width: 850px;
+    height: 400px;
+}
+.lorem .content h3{
+    font-size: 24px;
+}
+.lorem .content p{
+    font-size: 20px;
+}
+/*lorem section end */
+
+/* footer section start */
+footer{
+    width: 100%;
+    height: auto;
+    background: #022D7C;
+    padding: 15px 100px;
+    text-align: center;
+}
+footer h3{
+    color: #fff;
+    font-size: 15px;
+    font-weight: 550; 
+    
+}
+/* /footer section end */
 
